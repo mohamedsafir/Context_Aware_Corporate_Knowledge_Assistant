@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "dev": "concurrently \"npm start --prefix Backend\" \"npm run dev --prefix frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedsafir/openmindai.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedsafir/openmindai/issues"
+  },
+  "homepage": "https://github.com/mohamedsafir/openmindai#readme",
   "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "langchain": "^1.2.14",
-    "mongodb": "^7.0.0",
-    "multer": "^2.0.2",
-    "openai": "^6.16.0",
-    "pdf-parse": "^1.1.1"
+    "@google/generative-ai": "^0.24.1"
   }
 }
