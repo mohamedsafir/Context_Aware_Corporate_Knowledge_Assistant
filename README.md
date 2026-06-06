@@ -1,4 +1,4 @@
-# OpsMind AI 🧠💼
+# Context_Aware_Corporate_Knowledge_Assistant (RAG) | Opsmind AI🧠💼
 > **A Secure, Multi-Tenant Retrieval-Augmented Generation (RAG) Platform for Corporate Knowledge Management.**
 
 OpsMind AI is an enterprise-grade Software-as-a-Service (SaaS) application built on the MERN stack. It bridges the gap between raw, unstructured corporate data (like HR manuals, technical documentations, and policy PDFs) and advanced conversational AI. 
